@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply h-7 w-7 text-gray-500 cursor-pointer;
+  }
+  .button:hover {
+    @apply text-red-600;
+  }
+  .image {
+    @apply h-7 rounded-lg;
+  }
+  .widget {
+    @apply h-7 w-7 rounded-lg mr-5;
+  }
+}
